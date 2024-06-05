@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROVA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<form id="formulario"></form>
+<section>
+    <form action="#" onsubmit="enviar(event)">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
+        <label for="nome">matrícula</label>
+        <input type="text" name="matrícula" id="matricula" placeholder="Digite a sua matrícula" required>
+        <label for="nota">Nota 1</label>
+        <input type="number" placeholder="Nota1" name="Nota1" min="0" max="10" required>
+        <label for="nota">Nota 2</label>
+        <input type="number" placeholder="Nota2" name="Nota2" min="0" max="10" required>
+        <input type="submit">
+    </form>
+</section>
+
+<h1>Tabela de notas</h1>
+<table id="tabela"></table>
+<section>
+    <table>
+        <thead>
+            <th>Nome</th>
+            <th>matrícula</th>
+            <th>média</th>
+            <th>situação</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</section>
+
+</table>
+    <link href="index.js">
+<body>
+</body>
+</html>
